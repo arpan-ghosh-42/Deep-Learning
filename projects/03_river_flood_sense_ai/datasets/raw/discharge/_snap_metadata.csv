@@ -1,0 +1,29 @@
+id,name,river,kind,req_lat,req_lon,snap_lat,snap_lon,snap_shift_km,monsoon_mean_m3s,record_mean_m3s,n_days
+farakka_ganga,Farakka,Ganga,gauge,24.803,87.93,24.825005,87.875,6.6,30088.9,12362.5,7902
+berhampore_bhagi,Berhampore,Bhagirathi,gauge,24.1,88.25,24.025002,88.17502,11.8,81.8,49.8,7902
+katwa_bhagirathi,Katwa,Bhagirathi,gauge,23.65,88.13,23.525002,88.225006,17.4,430.1,256.5,7902
+nabadwip_bhagi,Nabadwip,Bhagirathi,gauge,23.408,88.368,23.325005,88.275024,13.8,540.3,326.4,7902
+kolkata_hooghly,Kolkata,Hooghly,gauge,22.575,88.345,22.575005,88.225006,13.3,716.0,446.0,7902
+burdwan_damodar,Bardhaman,Damodar,gauge,23.235,87.855,23.125,87.92502,14.5,265.6,200.2,7902
+udaynarayanpur,Udaynarayanpur,Damodar,gauge,22.73,87.99,22.775002,87.875,13.7,286.1,214.4,7902
+asansol_barakar,Asansol,Barakar,gauge,23.68,86.94,23.575005,87.025024,15.0,214.7,170.2,7902
+ilambazar_ajay,Ilambazar,Ajay,gauge,23.6,87.55,23.575005,87.525024,3.9,83.6,44.8,7902
+ghatal_silabati,Ghatal,Shilabati,gauge,22.665,87.727,22.575005,87.82501,14.8,567.5,409.0,7902
+midnapore_kangsa,Midnapore,Kangsabati,gauge,22.425,87.32,22.425003,87.42502,11.7,80.7,67.6,7902
+kolaghat_rupnaraya,Kolaghat,Rupnarayan,gauge,22.432,87.862,22.375,87.875,6.5,581.8,420.0,7902
+bankura_dwarakesw,Bankura,Dwarakeswar,gauge,23.24,87.07,23.175003,87.17502,13.7,40.6,25.9,7902
+gopiballavpur_sub,Gopiballavpur,Subarnarekha,gauge,22.205,86.9,22.125,87.025024,16.5,382.7,214.0,7902
+krishnanagar_jalan,Krishnanagar,Jalangi,gauge,23.4,88.5,23.275002,88.525024,14.2,83.7,49.1,7902
+malda_mahananda,Malda,Mahananda,gauge,25.0,88.14,24.925003,88.225006,12.6,468.1,198.3,7902
+siliguri_mahananda,Siliguri,Mahananda,gauge,26.71,88.43,26.775002,88.525024,12.8,1490.3,800.0,7902
+jalpaiguri_teesta,Jalpaiguri,Teesta,gauge,26.52,88.72,26.425003,88.725006,10.6,1766.5,911.9,7902
+coochbehar_torsa,Cooch Behar,Torsa,gauge,26.32,89.45,26.225006,89.57501,17.4,992.5,447.5,7902
+jaldhaka_dhupguri,Dhupguri,Jaldhaka,gauge,26.6,89.03,26.525002,89.025024,8.3,420.8,182.7,7902
+maithon_dam,Maithon Dam,Barakar,dam,23.783,86.815,23.675003,86.82501,12.0,203.7,164.9,7902
+panchet_dam,Panchet Dam,Damodar,dam,23.663,86.735,23.675003,86.625,12.3,224.8,126.0,7902
+konar_dam,Konar Dam,Konar,dam,23.86,85.83,23.775002,85.92502,14.2,123.8,71.0,7902
+tilaiya_dam,Tilaiya Dam,Barakar,dam,24.33,85.53,24.325005,85.625,10.6,26.0,14.0,7902
+durgapur_barrage,Durgapur Barrage,Damodar,dam,23.478,87.297,23.375,87.375,14.3,232.3,180.7,7902
+mukutmanipur_dam,Mukutmanipur Dam,Kangsabati,dam,22.947,86.788,22.975006,86.725006,7.7,33.9,21.4,7902
+farakka_barrage,Farakka Barrage,Ganga,dam,24.803,87.93,24.825005,87.875,6.6,30088.9,12362.5,7902
+gajoldoba_barrage,Gajoldoba Barrage,Teesta,dam,26.775,88.545,26.675003,88.57501,11.6,1550.9,825.1,7902

@@ -1,0 +1,12 @@
+# River Flood Sense AI
+# Tested on Python 3.14 (Windows). Install with:  python -m pip install -r requirements.txt
+numpy>=2.0
+pandas>=2.2
+scikit-learn>=1.5
+matplotlib>=3.9
+torch>=2.4
+torchvision>=0.19
+tifffile>=2024.5.10
+imagecodecs>=2024.1.1
+pillow>=10.3
+streamlit>=1.36

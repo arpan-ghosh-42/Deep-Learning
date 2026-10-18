@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+reports/_upload.*
+
+# Raw satellite GeoTIFFs are ~1 GB; regenerate with:
+#   python src/download_satellite.py
+datasets/raw/satellite/S2Hand/
+datasets/raw/satellite/LabelHand/
+datasets/raw/satellite/JRCWaterHand/
+datasets/processed/images/*.npy

@@ -1,0 +1,44 @@
+# Dependencies for the topic notebooks (01-05) and projects 01-02.
+# Project 03 has its own requirements.txt; install it inside the project
+# folder when working on it.
+#
+# Versions are not pinned because the notebooks were run in several
+# environments. Versions recorded in notebook outputs: torch 2.13.0+cpu,
+# langchain-groq 1.1.3; an earlier autosave of the ASL notebook recorded
+# tensorflow 2.21.0 / keras 3.15.1 on Python 3.11.
+#
+# Install:  python -m pip install -r requirements.txt
+
+# --- Core: 01_fundamentals, 02_ann, 03_cnn, 04_rnn_nlp, projects/01 -------------
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+torch
+torchvision
+nltk
+pillow
+jupyter
+ipywidgets
+
+# --- 01_fundamentals/02_opencv_grayscale_histogram.ipynb ------------------------
+opencv-python
+
+# --- 04_rnn_nlp/02 (phase 5: DistilBERT fine-tuning) ----------------------------
+transformers
+
+# --- projects/02_asl_sign_language_recognition (TensorFlow / Keras) -------------
+tensorflow
+
+# --- 05_rag_llm ---------------------------------------------------------------
+langchain-core
+langchain-community
+langchain-text-splitters
+langchain-openai
+langchain-groq
+pypdf
+sentence-transformers
+chromadb
+openai
+groq

@@ -1,0 +1,21 @@
+station_id,station,river,n,flood_rate,roc_auc,pr_auc
+farakka_ganga,Farakka,Ganga,1327,0.0211,0.9974,0.9086
+midnapore_kangsa,Midnapore,Kangsabati,1327,0.0625,0.9971,0.9605
+jalpaiguri_teesta,Jalpaiguri,Teesta,1327,0.0196,0.9959,0.8873
+udaynarayanpur,Udaynarayanpur,Damodar,1327,0.0505,0.9959,0.9713
+siliguri_mahananda,Siliguri,Mahananda,1327,0.0203,0.9956,0.8815
+burdwan_damodar,Bardhaman,Damodar,1327,0.0482,0.9939,0.9549
+berhampore_bhagi,Berhampore,Bhagirathi,1327,0.0203,0.9939,0.8549
+asansol_barakar,Asansol,Barakar,1327,0.046,0.9934,0.9147
+gopiballavpur_sub,Gopiballavpur,Subarnarekha,1327,0.055,0.9908,0.8828
+nabadwip_bhagi,Nabadwip,Bhagirathi,1327,0.0354,0.9907,0.8615
+ghatal_silabati,Ghatal,Shilabati,1327,0.055,0.9907,0.9148
+katwa_bhagirathi,Katwa,Bhagirathi,1327,0.0324,0.99,0.8266
+kolaghat_rupnaraya,Kolaghat,Rupnarayan,1327,0.0573,0.9893,0.9042
+kolkata_hooghly,Kolkata,Hooghly,1327,0.0377,0.9883,0.8634
+coochbehar_torsa,Cooch Behar,Torsa,1327,0.0188,0.9876,0.7911
+bankura_dwarakesw,Bankura,Dwarakeswar,1327,0.061,0.9826,0.8132
+ilambazar_ajay,Ilambazar,Ajay,1327,0.0422,0.9813,0.7787
+krishnanagar_jalan,Krishnanagar,Jalangi,1327,0.0309,0.9701,0.6131
+jaldhaka_dhupguri,Dhupguri,Jaldhaka,1327,0.0196,0.9673,0.604
+malda_mahananda,Malda,Mahananda,1327,0.0075,0.9559,0.369

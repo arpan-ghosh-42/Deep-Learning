@@ -1,0 +1,52 @@
+# ---------------------------------------------------------------------------
+# Python / Jupyter
+# ---------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Secrets: API keys belong in environment variables, never in notebooks
+.env
+.env.*
+
+# ---------------------------------------------------------------------------
+# Virtual environments (recreate from the requirements files instead)
+# ---------------------------------------------------------------------------
+venv/
+.venv/
+env/
+
+# ---------------------------------------------------------------------------
+# OS / editor files
+# ---------------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+.claude/
+
+# ---------------------------------------------------------------------------
+# Large or re-downloadable datasets (see README.md -> "Datasets")
+# ---------------------------------------------------------------------------
+# CIFAR-10 / EMNIST (torchvision downloads these automatically)
+03_cnn/data/
+projects/01_handwritten_character_recognition/data/
+
+# HASYv2 (~35 MB archive, ~168k extracted PNGs)
+projects/01_handwritten_character_recognition/HASYv2/
+projects/01_handwritten_character_recognition/HASYv2.tar.bz2
+
+# IMDB reviews CSV (~66 MB)
+04_rnn_nlp/IMDB Dataset.csv
+
+# RAG source documents and the generated Chroma vector store
+05_rag_llm/data/
+
+# ASL hand-sign images (origin/licence not recorded, see README)
+projects/02_asl_sign_language_recognition/dataset/
+
+# River Flood Sense AI: raw satellite data is ignored by the project's own
+# .gitignore; the processed tabular file is ~86 MB and is rebuilt by
+# `python src/build_tabular.py`
+projects/03_river_flood_sense_ai/datasets/processed/flood_tabular.csv

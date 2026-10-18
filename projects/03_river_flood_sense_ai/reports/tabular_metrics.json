@@ -1,0 +1,198 @@
+{
+  "n_features": 57,
+  "features": [
+    "temperature_2m_max",
+    "temperature_2m_min",
+    "temperature_2m_mean",
+    "apparent_temperature_max",
+    "precipitation_sum",
+    "rain_sum",
+    "precipitation_hours",
+    "relative_humidity_2m_max",
+    "relative_humidity_2m_mean",
+    "relative_humidity_2m_min",
+    "dew_point_2m_mean",
+    "surface_pressure_mean",
+    "pressure_msl_mean",
+    "wind_speed_10m_max",
+    "cloud_cover_mean",
+    "shortwave_radiation_sum",
+    "et0_fao_evapotranspiration",
+    "soil_moisture_0_to_7cm_mean",
+    "soil_moisture_0_to_100cm_mean",
+    "vapour_pressure_deficit_max",
+    "discharge",
+    "temperature_2m_max_t1",
+    "temperature_2m_min_t1",
+    "relative_humidity_2m_mean_t1",
+    "precipitation_sum_t1",
+    "precipitation_hours_t1",
+    "cloud_cover_mean_t1",
+    "pressure_msl_mean_t1",
+    "temp_change_1d",
+    "precip_2day_total",
+    "precip_3d",
+    "precip_7d",
+    "precip_15d",
+    "precip_30d",
+    "api_15d",
+    "rain_days_7d",
+    "soil_moist_7d_mean",
+    "discharge_norm",
+    "discharge_chg_1d",
+    "discharge_chg_3d",
+    "discharge_rise_rate",
+    "discharge_7d_mean",
+    "discharge_pctile",
+    "upstream_precip",
+    "upstream_precip_3d",
+    "upstream_precip_7d",
+    "dam_outflow",
+    "dam_outflow_norm",
+    "dam_outflow_chg_1d",
+    "dam_outflow_chg_3d",
+    "has_upstream_dam",
+    "month",
+    "doy_sin",
+    "doy_cos",
+    "is_monsoon",
+    "lat",
+    "lon"
+  ],
+  "train_end": "2018-12-31",
+  "val_end": "2022-12-31",
+  "n_rows": 157420,
+  "val": {
+    "roc_auc": 0.9840547115343097,
+    "pr_auc": 0.7535454400910522,
+    "base_rate": 0.01868583162217659,
+    "brier": 0.020699431749863204,
+    "best_f1": 0.6811023622047244,
+    "best_threshold": 0.9213106608534909,
+    "precision_at_best": 0.7361702127659574,
+    "recall_at_best": 0.6336996336996337
+  },
+  "test": {
+    "roc_auc": 0.9890021530908688,
+    "pr_auc": 0.86192304514455,
+    "base_rate": 0.03707611152976639,
+    "brier": 0.021265734588144583,
+    "best_f1": 0.7965554359526372,
+    "best_threshold": 0.8840601102630385,
+    "precision_at_best": 0.8466819221967964,
+    "recall_at_best": 0.7520325203252033
+  },
+  "baseline_persistence": {
+    "roc_auc": 0.9683835562138686,
+    "pr_auc": 0.7937904221859188,
+    "base_rate": 0.03707611152976639
+  },
+  "baseline_rain_only": {
+    "roc_auc": 0.9143907584746139,
+    "pr_auc": 0.22987928629782986,
+    "base_rate": 0.03707611152976639,
+    "brier": 0.11047127212041663
+  },
+  "top_features": [
+    [
+      "discharge_pctile",
+      0.59925
+    ],
+    [
+      "precip_30d",
+      0.06585
+    ],
+    [
+      "cloud_cover_mean_t1",
+      0.0343
+    ],
+    [
+      "discharge_norm",
+      0.02516
+    ],
+    [
+      "api_15d",
+      0.01945
+    ],
+    [
+      "precipitation_sum_t1",
+      0.01898
+    ],
+    [
+      "discharge_rise_rate",
+      0.0114
+    ],
+    [
+      "discharge_chg_1d",
+      0.01134
+    ],
+    [
+      "precip_2day_total",
+      0.01116
+    ],
+    [
+      "relative_humidity_2m_min",
+      0.00738
+    ],
+    [
+      "precipitation_hours_t1",
+      0.00713
+    ],
+    [
+      "doy_cos",
+      0.00696
+    ],
+    [
+      "dew_point_2m_mean",
+      0.00476
+    ],
+    [
+      "precip_7d",
+      0.00426
+    ],
+    [
+      "lat",
+      0.00371
+    ],
+    [
+      "cloud_cover_mean",
+      0.00357
+    ],
+    [
+      "relative_humidity_2m_mean_t1",
+      0.00304
+    ],
+    [
+      "apparent_temperature_max",
+      0.00292
+    ],
+    [
+      "discharge",
+      0.00281
+    ],
+    [
+      "lon",
+      0.00214
+    ],
+    [
+      "dam_outflow",
+      0.00199
+    ],
+    [
+      "precip_3d",
+      0.00174
+    ],
+    [
+      "pressure_msl_mean",
+      0.00167
+    ],
+    [
+      "dam_outflow_chg_3d",
+      0.00141
+    ],
+    [
+      "shortwave_radiation_sum",
+      0.00131
+    ]
+  ]
+}
